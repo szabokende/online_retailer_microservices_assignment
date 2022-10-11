@@ -13,7 +13,7 @@ services:
       context: .
       dockerfile: OrderApi/Dockerfile
 
-  orderapi:
+  userapi:
     image: ${DOCKER_REGISTRY-}userapi
     build:
       context: .
