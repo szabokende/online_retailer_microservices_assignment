@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "T9GEsNgYNaBlDCpEHVunDvYLC8KoGdPhgS8QPxRxqx/A7ogREr7Bt9Pjs9l3xEkz1zrX7y5+KpLbEzJvRzXBKQ==",
+  "dgSpecHash": "bN9rJBIoNoCSCJj9z5riDBgohTZKz6baNS9e1l2E72RK4H+yx0MI33d4InLBneO5KnpReEZIH+DqYLs6SshuDw==",
   "success": true,
-  "projectFilePath": "/Volumes/T7/VisualStudioProjects/OnlineRetailer_Choreography/SharedModels/SharedModels.csproj",
+  "projectFilePath": "/Volumes/T7 Touch/suli/online_retailer_microservices_assignment/SharedModels/SharedModels.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

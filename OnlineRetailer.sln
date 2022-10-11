@@ -9,13 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedModels", "SharedModel
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{B9142733-7271-415B-9856-7CBE7957E785}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotifyCustomerService", "..\NotifyCustomerService\NotifyCustomerService.csproj", "{87B36661-D4DB-48AC-B04F-2886241CBE92}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserApi", "UserApi\UserApi.csproj", "{C12B95F2-3908-4CCE-8684-0011144413ED}"
-EndProject
-Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "UserApi", "..\UserApi\UserApi.csproj", "{5CF60005-3CFB-450D-A2AC-336869377C41}"
-EndProject
-Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "NotifyCustomer", "..\NotifyCustomer\NotifyCustomer.csproj", "{C2D5A3BA-5F4F-48C8-9185-59EC462A08F6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotifyCustomer", "NotifyCustomer\NotifyCustomer.csproj", "{AD1DE11F-8243-4D99-B2B4-0CDD33700C35}"
 EndProject
@@ -41,22 +35,10 @@ Global
 		{B9142733-7271-415B-9856-7CBE7957E785}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B9142733-7271-415B-9856-7CBE7957E785}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B9142733-7271-415B-9856-7CBE7957E785}.Release|Any CPU.Build.0 = Release|Any CPU
-		{87B36661-D4DB-48AC-B04F-2886241CBE92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{87B36661-D4DB-48AC-B04F-2886241CBE92}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{87B36661-D4DB-48AC-B04F-2886241CBE92}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{87B36661-D4DB-48AC-B04F-2886241CBE92}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C12B95F2-3908-4CCE-8684-0011144413ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C12B95F2-3908-4CCE-8684-0011144413ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C12B95F2-3908-4CCE-8684-0011144413ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C12B95F2-3908-4CCE-8684-0011144413ED}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5CF60005-3CFB-450D-A2AC-336869377C41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5CF60005-3CFB-450D-A2AC-336869377C41}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5CF60005-3CFB-450D-A2AC-336869377C41}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5CF60005-3CFB-450D-A2AC-336869377C41}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C2D5A3BA-5F4F-48C8-9185-59EC462A08F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C2D5A3BA-5F4F-48C8-9185-59EC462A08F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C2D5A3BA-5F4F-48C8-9185-59EC462A08F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C2D5A3BA-5F4F-48C8-9185-59EC462A08F6}.Release|Any CPU.Build.0 = Release|Any CPU
 		{AD1DE11F-8243-4D99-B2B4-0CDD33700C35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{AD1DE11F-8243-4D99-B2B4-0CDD33700C35}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD1DE11F-8243-4D99-B2B4-0CDD33700C35}.Release|Any CPU.ActiveCfg = Release|Any CPU

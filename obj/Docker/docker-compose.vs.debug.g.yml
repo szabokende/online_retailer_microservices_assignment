@@ -14,10 +14,10 @@ services:
       - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
       - NUGET_FALLBACK_PACKAGES=
     volumes:
-      - /Volumes/T7/VisualStudioProjects/OnlineRetailer_Choreography/OrderApi:/app
-      - /Volumes/T7/VisualStudioProjects/OnlineRetailer_Choreography:/src
-      - /Users/kendeszabo/vsdbg/vs2017u5:/remote_debugger:rw
-      - /Users/kendeszabo/.nuget/packages/:/root/.nuget/packages:ro
+      - /Volumes/T7 Touch/suli/online_retailer_microservices_assignment/OrderApi:/app
+      - /Volumes/T7 Touch/suli/online_retailer_microservices_assignment:/src
+      - /Users/belakovacs/vsdbg/vs2017u5:/remote_debugger:rw
+      - /Users/belakovacs/.nuget/packages/:/root/.nuget/packages:ro
 
     entrypoint: tail -f /dev/null
     labels:
@@ -39,10 +39,10 @@ services:
       - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
       - NUGET_FALLBACK_PACKAGES=
     volumes:
-      - /Volumes/T7/VisualStudioProjects/OnlineRetailer_Choreography/ProductApi:/app
-      - /Volumes/T7/VisualStudioProjects/OnlineRetailer_Choreography:/src
-      - /Users/kendeszabo/vsdbg/vs2017u5:/remote_debugger:rw
-      - /Users/kendeszabo/.nuget/packages/:/root/.nuget/packages:ro
+      - /Volumes/T7 Touch/suli/online_retailer_microservices_assignment/ProductApi:/app
+      - /Volumes/T7 Touch/suli/online_retailer_microservices_assignment:/src
+      - /Users/belakovacs/vsdbg/vs2017u5:/remote_debugger:rw
+      - /Users/belakovacs/.nuget/packages/:/root/.nuget/packages:ro
 
     entrypoint: tail -f /dev/null
     labels:

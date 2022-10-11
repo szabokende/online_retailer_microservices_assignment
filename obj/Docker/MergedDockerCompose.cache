@@ -1,69 +1,34 @@
-name: dockercompose6965529440845839135
 services:
   orderapi:
     build:
-      context: /Volumes/T7/VisualStudioProjects/OnlineRetailer_Choreography
+      context: /Volumes/T7 Touch/suli/online_retailer_microservices_assignment
       dockerfile: OrderApi/Dockerfile
     environment:
       ASPNETCORE_ENVIRONMENT: Development
       ASPNETCORE_URLS: https://+:443;http://+:80
     image: orderapi
-    networks:
-      default: null
     ports:
-    - mode: ingress
+    - published: 8080
       target: 80
-      published: "8080"
-      protocol: tcp
-    - mode: ingress
+    - published: 8443
       target: 443
-      published: "8443"
-      protocol: tcp
     volumes:
-    - type: bind
-      source: /Users/kendeszabo/.aspnet/https
-      target: /root/.aspnet/https
-      read_only: true
-      bind:
-        create_host_path: true
-    - type: bind
-      source: /Users/kendeszabo/.microsoft/usersecrets
-      target: /root/.microsoft/usersecrets
-      read_only: true
-      bind:
-        create_host_path: true
+    - /Users/belakovacs/.aspnet/https:/root/.aspnet/https:ro
+    - /Users/belakovacs/.microsoft/usersecrets:/root/.microsoft/usersecrets:ro
   productapi:
     build:
-      context: /Volumes/T7/VisualStudioProjects/OnlineRetailer_Choreography
+      context: /Volumes/T7 Touch/suli/online_retailer_microservices_assignment
       dockerfile: ProductApi/Dockerfile
     environment:
       ASPNETCORE_ENVIRONMENT: Development
       ASPNETCORE_URLS: https://+:443;http://+:80
     image: productapi
-    networks:
-      default: null
     ports:
-    - mode: ingress
+    - published: 5080
       target: 80
-      published: "5080"
-      protocol: tcp
-    - mode: ingress
+    - published: 5443
       target: 443
-      published: "5443"
-      protocol: tcp
     volumes:
-    - type: bind
-      source: /Users/kendeszabo/.aspnet/https
-      target: /root/.aspnet/https
-      read_only: true
-      bind:
-        create_host_path: true
-    - type: bind
-      source: /Users/kendeszabo/.microsoft/usersecrets
-      target: /root/.microsoft/usersecrets
-      read_only: true
-      bind:
-        create_host_path: true
-networks:
-  default:
-    name: dockercompose6965529440845839135_default
+    - /Users/belakovacs/.aspnet/https:/root/.aspnet/https:ro
+    - /Users/belakovacs/.microsoft/usersecrets:/root/.microsoft/usersecrets:ro
+version: '3.4'

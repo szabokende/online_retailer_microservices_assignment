@@ -208,19 +208,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/kendeszabo/.nuget/packages/": {}
+    "/Users/belakovacs/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Volumes/T7/VisualStudioProjects/OnlineRetailer_Choreography/UserApi/UserApi.csproj",
+      "projectUniqueName": "/Volumes/T7 Touch/suli/online_retailer_microservices_assignment/UserApi/UserApi.csproj",
       "projectName": "UserApi",
-      "projectPath": "/Volumes/T7/VisualStudioProjects/OnlineRetailer_Choreography/UserApi/UserApi.csproj",
-      "packagesPath": "/Users/kendeszabo/.nuget/packages/",
-      "outputPath": "/Volumes/T7/VisualStudioProjects/OnlineRetailer_Choreography/UserApi/obj/",
+      "projectPath": "/Volumes/T7 Touch/suli/online_retailer_microservices_assignment/UserApi/UserApi.csproj",
+      "packagesPath": "/Users/belakovacs/.nuget/packages/",
+      "outputPath": "/Volumes/T7 Touch/suli/online_retailer_microservices_assignment/UserApi/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/kendeszabo/.nuget/NuGet/NuGet.Config"
+        "/Users/belakovacs/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"

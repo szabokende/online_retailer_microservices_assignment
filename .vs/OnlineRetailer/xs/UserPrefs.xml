@@ -1,19 +1,16 @@
-﻿<Properties StartupConfiguration="{B9142733-7271-415B-9856-7CBE7957E785}|Default">
+﻿<Properties StartupConfiguration="{B9142733-7271-415B-9856-7CBE7957E785}|Default" GitUserInfo="UsingGIT">
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.docker-compose PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.ProductApi PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="../NotifyCustomer/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ProductApi/Program.cs">
     <Files>
-      <File FileName="../NotifyCustomer/Program.cs" Line="1" Column="1" />
+      <File FileName="ProductApi/Program.cs" Line="13" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="OnlineRetailer" expanded="True" />
+          <Node name="OnlineRetailer" expanded="True">
+            <Node name="ProductApi" expanded="True" />
+          </Node>
         </State>
       </Pad>
       <Pad Id="MonoDevelop.Debugger.WatchPad">
@@ -21,6 +18,13 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.NotifyCustomerService FirstBuild="True" />
-  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.ProductApi PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <DisabledProjects>
+    <String>../UserApi/UserApi.csproj</String>
+    <String>../NotifyCustomerService/NotifyCustomerService.csproj</String>
+    <String>../NotifyCustomer/NotifyCustomer.csproj</String>
+  </DisabledProjects>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>

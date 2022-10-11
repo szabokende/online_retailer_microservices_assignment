@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2XiDvfi44ouZQqenp9eUbs/+ggVholTvadExt+yMFhoXzclRN7MPvXpixonlpQohzVb93kraVmcicD1lkvnjQQ==",
+  "dgSpecHash": "dxKkXLyOh5vUMPEQmvweOzTn9lQJi8r2lfcsPJvmr2PIFlI4H5dtzUlZTkeL1jJ4HASwtzzzQ+T69QTFTh2bOA==",
   "success": true,
-  "projectFilePath": "/Volumes/T7/VisualStudioProjects/OnlineRetailer_Choreography/NotifyCustomer/NotifyCustomer.csproj",
+  "projectFilePath": "/Volumes/T7 Touch/suli/online_retailer_microservices_assignment/NotifyCustomer/NotifyCustomer.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
